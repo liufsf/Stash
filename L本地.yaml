@@ -11,7 +11,7 @@ dns:
 subscribe-url: null
 proxy-providers:
   # > 远程服务器
-  花云: {interval: 86400, benchmark-timeout: 3, benchmark-url: 'http://www.gstatic.com/generate_204', url: 'http://sub.store/download/%E8%8A%B1%E4%BA%91?target=Stash'}
+  花云: {interval: 86400, benchmark-timeout: 3, benchmark-url: 'http://www.gstatic.com/generate_204', url: 'https://api.huacloud.xyz/sub?target=clash&insert=true&emoji=true&udp=true&clash.doh=true&new_name=true&filename=Flower_Trojan&url=https%3A%2F%2Fapi.flowercloud.xyz%2Fosubscribe.php%3Fsid%3D64834%26token%3DIjr7Hwy8qmLs'}
 proxy-groups:
   - include-all: true
     name: Proxy
